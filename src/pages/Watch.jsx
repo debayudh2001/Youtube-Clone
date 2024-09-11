@@ -33,7 +33,7 @@ const Watch = () => {
       {currentPlaying && currentPlaying?.videoId === id && (
         <div className='bg-[#0F0F0F] w-screen h-screen'>
           <Navbar />
-          <div className='pl-20 pt-2'>
+          <div className='pl-28 pt-2'>
             <iframe src={`https://www.youtube.com/embed/${id}?autoplay=1`}
               frameBorder="0"
               width="800"
